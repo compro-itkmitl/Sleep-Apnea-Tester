@@ -23,6 +23,24 @@ void loop() {
     count++;
   }
 
-  
+  if (count == 20) {
+
+    int count_active = 0;
+    
+    for (int i=0; i<25;i++) {
+      if (sign[i] > 300) {
+        count_active++; 
+      }
+    }
+
+    count = 0;
+    trigger = false;
+    if (count_active > 3) {
+      Serial.println("Breathing out");
+    } else {
+      Serial.println("Breathing in");
+    }
+    
+  }
 
 }
