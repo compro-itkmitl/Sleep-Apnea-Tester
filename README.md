@@ -1,6 +1,6 @@
 # Sleep Apnea Tester
-
-This is a Micro-controller project for Computer Programming 2017. The two main objectives of this study were to Sleep Apnea(OSA) surveillance and report value while sleeping.
+  Sleep Apnea Tester is a micro-controller project for Computer Projramming 2017 with two main objectives are Sleep Apnea surveillance and report irregularity statistics while sleeping.
+  Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve about sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The statistics will be saved and can be checking to signify about irregularity while sleeping, if the irregularity was found while sleeping, user can consult with paramedic for protect in long term.
 
 ## Installation
 * Download and Install Arduino IDE from https://www.arduino.cc/en/Main/Software
