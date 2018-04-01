@@ -9,8 +9,6 @@ This is a Micro-controller project for Computer Programming 2017. The two main o
 * Download Library Pub sub from https://github.com/knolleary/pubsubclient, https://github.com/googlesamples/firebasearduino/archive/master.zip, https://github.com/bblanchon/ArduinoJson
 * Install Library: sketch >> Include Library >> Add .zip library
 
-Cr. https://lookaside.fbsbx.com/file/ComPro-NodeMCU.pdf?token=AWw1UAXYlYEGdhAVWUxoroSEFlH3ZVIFzntvdEY64QRymBiVFtpmNr0drNFNKMkN210VcZR9Ayp-gtG_LXLYcJFDsP7RjlialOYw3r5OORMCdCHWU9i0RJQui0IaKJrsztBpuB0cxQjGfVNmTwT7bWfigGRzBFN9-ICgKUJwp91kaA
-
 **Requirements**
 * Arduino UNO R3
 * USB
