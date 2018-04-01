@@ -25,7 +25,7 @@
   - Open Arduino IDE and select Sketch >> Include Library >> Add .zip library.
   - Select ZIP file and click on open.
 
-**Requirements**
+## Requirements
 - Arduino UNO R3
 - USB
 - Jumper
