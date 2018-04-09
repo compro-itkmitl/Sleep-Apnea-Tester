@@ -9,7 +9,7 @@
   - Select computer's operation system for coding on Arduino IDE.
   - Click on **JUST DOWNLOAD** for download program or **CONTRIBUTE & DOWNLOAD** for donate developer and download program.
   - Select folder for save program.
-  - Unzip file and run arduino.exe.
+  - Unzip file and run arduino.exe . 
 2. **Setting Arduino IDE**
   - Go to File >> Preference, it will show preference window.
   - Pasted http://arduino.esp8266.com/stable/package_esp8266com_index.json in **Additional Boards Manager URLs**.
@@ -20,8 +20,8 @@
   - Install driver to computer.
   - If install is finish, close install window.
 4. **Download and Install Library**
-  - Go to https://github.com/knolleary/pubsubclient or https://github.com/bblanchon/ArduinoJson
-  - Click on **Clone or download** then select **Download ZIP**.
+  - Go to https://github.com/compro-itkmitl/Sleep-Apnea-Tester/tree/master/Library
+  - Download all ZIP file.
   - Open Arduino IDE and select Sketch >> Include Library >> Add .zip library.
   - Select ZIP file and click on open.
 
