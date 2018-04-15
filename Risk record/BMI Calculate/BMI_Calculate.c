@@ -22,7 +22,7 @@ int main() {
 	bmi = weight / (height * height);
 	printf("-----------------RESULT----------------\n");
 	printf("  Age = %d years old.\n", age);
-	printf("  Height = %.2f cm.\n", height);
+	printf("  Height = %.2f cm.\n", height * 100);
 	printf("  Weight = %.2f kg.\n", weight);
 	return result(bmi);
 }
