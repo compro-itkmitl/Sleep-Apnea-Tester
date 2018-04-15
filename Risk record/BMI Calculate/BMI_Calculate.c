@@ -20,12 +20,15 @@ int main() {
 	scanf("%f", &weight);
 	height = height / 100;
 	bmi = weight / (height * height);
+	printf("-----------------RESULT----------------\n");
+	printf("  Age = %d years old.\n", age);
+	printf("  Height = %.2f cm.\n", height);
+	printf("  Weight = %.2f kg.\n", weight);
 	return result(bmi);
 }
 
 int result(float bmi) {
-	printf("--------------------------------\n");
-	printf("  BMI = %.2f\n", bmi);
+	printf("  BMI = %.2f kg.\n", bmi);
 	if (bmi <= 18.5) {
 		printf("  Comment :	You are underweight, you need to do more exercise and eat all 5 groups.\n");
 		printf("  Risk 	  :	Malnutrition.\n");
@@ -46,8 +49,8 @@ int result(float bmi) {
 		printf("  Comment : 	You are obese, please beware for obesity and do exercise with avoid greasy foods.\n");
 		printf("  Risk    : 	High Blood Pressure, Gestational Diabetes and Obesity\n");
 	}
-	printf("--------------------------------\n");
-	printf("-----------BMI CRITERION--------\n");
+	printf("---------------------------------------\n");
+	printf("-------------BMI CRITERION-------------\n");
 	printf("  BMI < 18.50		:	Underweight\n");
 	printf("  BMI 16.0 - 22.9	:	Normal\n");
 	printf("  BMI 23.0 - 24.9	:	Overweight\n");
@@ -55,6 +58,6 @@ int result(float bmi) {
 	printf("  BMI 30.0 - 40.0	:	Obese\n");
 	printf("  BMI 40.1 - 50.0	:	Morbid-obese\n");
 	printf("  BMI > 50.0		:	Super-obese\n");
-	printf("--------------------------------\n");
+	printf("---------------------------------------\n");
 	system("pause");
 }
