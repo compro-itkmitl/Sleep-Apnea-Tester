@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int result(float bmi);
 
@@ -7,10 +7,10 @@ int main() {
 	printf("Please enter your age.\n");
 	scanf("%d", &age);
 	if (age < 18) {
-		printf("--------------------------------\n");
-		printf("    You are not in criterion.   \n");
-		printf("--------------------------------\n");
-		system("pause");
+		printf("---------------------------------------------\n");
+		printf("          You are not in criterion.          \n");
+		printf("---------------------------------------------\n");
+// 		system("pause");
 		return 0;
 	}
 	float height, weight, bmi;
@@ -20,7 +20,7 @@ int main() {
 	scanf("%f", &weight);
 	height = height / 100;
 	bmi = weight / (height * height);
-	printf("-----------------RESULT----------------\n");
+	printf("--------------------RESULT-------------------\n");
 	printf("  Age = %d years old.\n", age);
 	printf("  Height = %.2f cm.\n", height * 100);
 	printf("  Weight = %.2f kg.\n", weight);
@@ -49,8 +49,8 @@ int result(float bmi) {
 		printf("  Comment : 	You are obese, please beware for obesity and do exercise with avoid greasy foods.\n");
 		printf("  Risk    : 	High Blood Pressure, Gestational Diabetes and Obesity\n");
 	}
-	printf("---------------------------------------\n");
-	printf("-------------BMI CRITERION-------------\n");
+	printf("---------------------------------------------\n");
+	printf("----------------BMI CRITERION----------------\n");
 	printf("  BMI < 18.50		:	Underweight\n");
 	printf("  BMI 16.0 - 22.9	:	Normal\n");
 	printf("  BMI 23.0 - 24.9	:	Overweight\n");
@@ -58,6 +58,6 @@ int result(float bmi) {
 	printf("  BMI 30.0 - 40.0	:	Obese\n");
 	printf("  BMI 40.1 - 50.0	:	Morbid-obese\n");
 	printf("  BMI > 50.0		:	Super-obese\n");
-	printf("---------------------------------------\n");
-	system("pause");
+	printf("---------------------------------------------\n");
+// 	system("pause");
 }
