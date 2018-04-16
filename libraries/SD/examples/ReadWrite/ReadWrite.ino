@@ -27,7 +27,7 @@ File myFile;
 //     Arduino Ethernet shield: pin 4
 //     Adafruit SD shields and modules: pin 10
 //     Sparkfun SD shield: pin 8
-const int chipSelect = 4;
+const int chipSelect = 10;
 
 void setup()
 {
