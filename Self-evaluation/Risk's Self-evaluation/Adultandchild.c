@@ -184,6 +184,15 @@ int main() {
 
     if (age<18){base=20;} else{base=25;}
     printf("  Risk to have a sleep apnea disease : %.4f%% \n", ((point+OSA+ABN+MIX)/base)*100);
+    if (OSA>ABN && OSA>MIX){
+        printf("Have a tendency to be Obstructive Sleep Apnea Syndrome\n");
+    }
+    if (ABN>OSA && ABN>MIX){
+        printf("Have a tendency to be Abnormal Sleep Apnea Syndrome\n");
+    }
+    if (MIX>ABN && MIX>OSA){
+        printf("Have a tendency to be Mixed Sleep Apnea Syndrome\n");
+    }
     printf("-------------------------------------------------\n");
     printf("-------------------------------------------------\n");
 
@@ -194,14 +203,24 @@ int main() {
         printf("Cannot open file\n");
         exit(1);
     }
-    fprintf(fp, "\n            %s\n", asctime (timeinfo));
-    fprintf(fp, "\n---------------------RESULT----------------------\n");
+    fprintf(fp, "            %s", asctime (timeinfo));
+    fprintf(fp, "\n          ---------  RESULT  ---------\n");
     fprintf(fp, "      Age    = %d years old.\n", age);
     fprintf(fp, "      Height = %.2f cm.\n", height * 100);
     fprintf(fp, "      Weight = %.2f kg.\n", weight);
     fprintf(fp, "      BMI    = %.2f \n", bmi);
     fprintf(fp, "\n  Risk to have a sleep apnea disease : %.4f%% \n", ((point+OSA+ABN+MIX)/base)*100);
-    fprintf(fp, "-------------------------------------------------\n", fp);
+    if (OSA>ABN && OSA>MIX){
+        fprintf(fp, "Have a tendency to be Obstructive Sleep Apnea Syndrome");
+    }
+    if (ABN>OSA && ABN>MIX){
+        fprintf(fp, "Have a tendency to be Abnormal Sleep Apnea Syndrome");
+    }
+    if (MIX>ABN && MIX>OSA){
+        fprintf(fp, "Have a tendency to be Mixed Sleep Apnea Syndrome");
+    }
+    fprintf(fp, "             -----------------------             \n");
+
     fclose(fp);
 
     return 0;
