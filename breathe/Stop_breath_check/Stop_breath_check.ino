@@ -6,13 +6,15 @@
 
 
 //อย่าปรับความต้านทานของตัวสีฟ้า กว่าจะปรับได้ เหมือนจะขาดใจ
-//in cast with normal breathing
 //anyway this code can't use in real situation
 int val = 0, i;
 int check_in_out = 0;
 unsigned long star_stop_breath;
 File myFile;
 tmElements_t tm;
+String printt;
+float time = 0.0, continue_breath;
+
 
 // change this to match your SD shield or module;
 //     Arduino Ethernet shield: pin 4
@@ -20,21 +22,30 @@ tmElements_t tm;
 //     Sparkfun SD shield: pin 8
 const int chipSelect = 10;
 
-float time = 0.0, continue_breath;
 void setup() {
   Serial.begin(115200);
   pinMode(2,INPUT);
   pinMode(SS, OUTPUT);
-
+  Serial.println("--------Breathing Check for Sleep Apnea--------");
   
   if (!SD.begin(chipSelect)) {
-    Serial.println("SD Card initialization failed!");
+    Serial.println("--------  SD Card initialization failed! --------");
   }
   else{
-    Serial.println("SD Card initialization done.");
+    Serial.println("--------  SD Card initialization done. --------");
   }
+  int check_file = ReadText();
+//  if(check_file != 0){
+//    Serial.println("Something in \"output.txt\" file. Do you want to delete it? y/n");
+//    while(Serial.available()) {
+//      String command = Serial.readString();
+//      if (command=='y'){
+//        SD.remove("output.txt");
+//        Serial.println("Removing output.txt");
+//      }
+//    }
+//  }
   myFile = SD.open("output.txt", FILE_WRITE);
-
 }
 void loop() {
 
@@ -56,20 +67,11 @@ void loop() {
 
   else{
     if(check_in_out>8){
-      if (RTC.read(tm)){
-        print2digits(tm.Hour);
-        Serial.write(':');
-        print2digits(tm.Minute);
-        Serial.write(':');
-        print2digits(tm.Second);
-        Serial.println();
-
-      }
-      Serial.print("you Stop breath for");
-      continue_breath = millis() - star_stop_breath;
-      Serial.print(continue_breath/1000);
-      Serial.println("sec");
+      printt += post(star_stop_breath);
+      Serial.println(printt);
+      WriteText(printt);
     }
+
     check_in_out = 0;
     star_stop_breath = 0;
     //    Serial.print("out");
@@ -80,38 +82,22 @@ void loop() {
 
 
 // check if don't breath out more than 4 sec(when check >8)
-  if(check_in_out>=8){
-    if(check_in_out==8){
-      Serial.println("Stop breathing!!!!");
-      if (RTC.read(tm)){
-        Serial.print("Date = ");
-        Serial.print(tm.Day);
-        Serial.write('/');
-        Serial.print(tm.Month);
-        Serial.write('/');
-        Serial.print(tmYearToCalendar(tm.Year));
-        Serial.write(' ');
-        print2digits(tm.Hour);
-        Serial.write(':');
-        print2digits(tm.Minute);
-        Serial.write(':');
-        print2digits(tm.Second-1);
-        Serial.print(" - ");
-
-
-      }
-      star_stop_breath = millis()-1000;
-    }
+  if(check_in_out==8){
+    printt = pre();
+    star_stop_breath = millis()-1000;
   }
+
 }
 
 
 
-void print2digits(int number) {
+String print2digits(int number) {
+  String timed = "";
   if (number >= 0 && number < 10) {
-    Serial.write('0');
+    timed+='0';
   }
-  Serial.print(number);
+  timed+=number;
+  return timed;
 }
 void write_in_file_2digits(int number) {
   if (number >= 0 && number < 10) {
@@ -119,3 +105,70 @@ void write_in_file_2digits(int number) {
   }
   myFile.print(number);
 }
+int ReadText(){
+  // re-open the file for reading:
+  int roundd=0;
+  myFile = SD.open("output.txt");
+  if (myFile) {
+    Serial.println("--------           output.txt          --------");
+
+    // read from the file until there's nothing else in it:
+    while (myFile.available()){
+      Serial.write(myFile.read());
+      roundd++;
+    }
+    // close the file:
+    myFile.close();
+  } 
+  else {
+    // if the file didn't open, print an error:
+    Serial.println("error opening output.txt");
+  }
+  return roundd;
+}
+String pre(){
+  String timed = "";
+  timed += "Stop breathing! ";
+  if (RTC.read(tm)){
+    timed += tm.Day;
+    timed += "/";
+    timed += tm.Month;
+    timed += "/";
+    timed += tmYearToCalendar(tm.Year);
+    timed += " ";
+    timed += print2digits(tm.Hour);
+    timed+=":";
+    timed+=tm.Minute;
+    timed+=":";
+    timed+=tm.Second-1;
+    timed+=" - ";
+  }
+  return timed;
+}
+String post(int num){
+  String timed = "";
+  if (RTC.read(tm)){
+        timed+=tm.Hour;
+        timed+=":";
+        timed+=tm.Minute;
+        timed+=":";
+        timed+=tm.Second;
+      }
+  timed+=" (you Stop breath for ";
+  continue_breath = millis() - num;
+  timed+=continue_breath/1000;
+  timed+="sec)";
+  return timed;
+}
+void WriteText(String txt){
+  myFile = SD.open("output.txt", FILE_WRITE);
+  if (myFile) {
+    myFile.println(txt);
+    myFile.close();
+  } 
+  else {
+    // if the file didn't open, print an error:
+    Serial.println("error opening output.txt");
+  }
+}
+
