@@ -7,6 +7,7 @@
 
 //อย่าปรับความต้านทานของตัวสีฟ้า กว่าจะปรับได้ เหมือนจะขาดใจ
 //anyway this code can't use in real situation
+char command;
 int val = 0, i;
 int check_in_out = 0;
 unsigned long star_stop_breath;
@@ -36,20 +37,15 @@ void setup() {
   }
   int check_file = ReadText();
 //  if(check_file != 0){
-//    Serial.println("Something in \"output.txt\" file. Do you want to delete it? y/n");
-//    while(Serial.available()) {
-//      String command = Serial.readString();
-//      if (command=='y'){
-//        SD.remove("output.txt");
-//        Serial.println("Removing output.txt");
-//      }
-//    }
+//    Serial.println("Something in \"output.txt\" file.");
+//    SD.remove("output.txt");
+//    Serial.println("Removing output.txt");
+//    myFile = SD.open("output.txt");
+//    myFile.close();
 //  }
   myFile = SD.open("output.txt", FILE_WRITE);
 }
 void loop() {
-
-
 
 //  get input form voice detect for check breath
   for(i=0; i<20; i++){
@@ -124,6 +120,7 @@ int ReadText(){
     // if the file didn't open, print an error:
     Serial.println("error opening output.txt");
   }
+  Serial.println("-----------------------------------------------");
   return roundd;
 }
 String pre(){
