@@ -31,8 +31,13 @@
 - Jumper
 - High Sensitive sound Microphone Detection Module
 - Data Logger Shield
-- Breadboard 
+- Breadboard
+- SD card 
+- Lithium Cell CR122
 
+## Board Connection
+
+![alt text](https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Self-evaluation/img/Board.png "Logo Title Text 1")
 ## Author
 * 60070016 : Chaiyapong Nithipeerawat 
 * 60070018 : Thitikorn Padungwatsawat 
