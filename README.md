@@ -3,6 +3,8 @@
   
 &nbsp;&nbsp;&nbsp;&nbsp;Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve about sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The statistics will be saved and can be checking to signify about irregularity while sleeping, if the irregularity was found while sleeping, user can consult with paramedic for protect in long term.
 
+---
+
 # Installation
 1. **Download and Install Arduino IDE**
   - Go to https://www.arduino.cc/ and clik on download menu.
@@ -23,7 +25,9 @@
   - Download all ZIP file.
   - Open Arduino IDE and select Sketch >> Include Library >> Add .zip library.
   - Select ZIP file and click on "open".
-  
+
+---
+
 # Requirements
 - A Computer/PC/Laptop
 - Arduino UNO R3
@@ -35,9 +39,14 @@
 - SD card 
 - Lithium Cell CR122
 
+---
+
 # Board Connection
 
 ![](/Self-evaluation/img/Board.png)
+
+---
+
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
 ID | First Name | Surname
 --- | --- | ---
@@ -45,10 +54,12 @@ ID | First Name | Surname
 60070018 | Thitikorn | Padungwatsawat
 60070034 | Thirada | Theethum
 
-# Assistant Teacher
+---
+
+# ![](/Self-evaluation/img/assis_icon.png) Assistant Teacher
 Assist.Prof. Dr. Kitsuchart Pasupa | Assist.Prof. Dr. Panwit Tuwanut
 --- | ---
-![](/Self-evaluation/img/teacher_kitsuchart.png) | ![](/Self-evaluation/img/teacher_panwit.png)
+![](/Self-evaluation/img/teacher_kitsuchart.jng) | ![](/Self-evaluation/img/teacher_panwit.jng)
 
 ---
 
