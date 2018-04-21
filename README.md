@@ -50,7 +50,7 @@
 
 ---
 
-# ![](/Self-evaluation/img/library_icon.png) Library In Uses
+# ![](/Self-evaluation/img/library.png) Library In Uses
   - Arduino Json : https://github.com/bblanchon/ArduinoJson
   - Time Library : https://github.com/PaulStoffregen/Time
   - Firebase Arduino : https://github.com/firebase/firebase-arduino
