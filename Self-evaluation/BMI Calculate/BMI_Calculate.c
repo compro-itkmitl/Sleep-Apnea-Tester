@@ -8,7 +8,7 @@ int main() {
 	scanf("%d", &age);
 	if (age < 18) {
 		printf("---------------------------------------------\n");
-		printf("          You are not in criterion.          \n");
+		printf("       You are not in the criterion.          \n");
 		printf("---------------------------------------------\n");
 // 		system("pause");
 		return 0;
@@ -46,7 +46,7 @@ int result(float bmi) {
 		printf("  Risk    : 	High Blood Pressure and Gestational Diabetes\n");
 	}
 	else if (bmi > 29.9) {
-		printf("  Comment : 	You are obese, please beware for obesity and do exercise with avoid greasy foods.\n");
+		printf("  Comment : 	You are obese, please beware for obesity and do exercise and avoiding greasy foods.\n");
 		printf("  Risk    : 	High Blood Pressure, Gestational Diabetes and Obesity\n");
 	}
 	printf("---------------------------------------------\n");

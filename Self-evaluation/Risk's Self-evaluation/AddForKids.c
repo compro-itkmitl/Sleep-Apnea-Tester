@@ -9,31 +9,32 @@ int main() {
 	printf("Please enter your age.\n");
 	scanf("%d", &age);
 	if (age < 15) {
-	    printf("1.Are you wet your bed at night?(y/n)\n");
+	    printf("Are you wet your bed at night? (y/n)\n");
 	    scanf("%c\n", &answer);
 	    if (answer=='y'){point++;}
 	    
-	    printf("2.Have you much night sweats?(y/n)\n");
+	    printf("Have you much night sweats? (y/n)\n");
 	    scanf("%c\n", &answer);
 	    if (answer=='y'){point++;}	    
 
-	    printf("3.Are you breathing by mouth during the day?(y/n)\n");
+	    printf("Are you breathing by mouth during the day? (y/n)\n");
         scanf("%c\n", &answer);
         if (answer=='y'){point++;}
         
-	    printf("4.Do you often have a nightmare?(y/n)\n");
+	    printf("Do you often have a nightmare? (y/n)\n");
         scanf("%c\n", &answer);
         if (answer=='y'){point++;}        
         
-	    printf("5.Are you naughty or not good at school?(y/n)\n");
+	    printf("Are you naughty or not good at school? (y/n)\n");
         scanf("%c\n", &answer);
+        system("cls");
         if (answer=='y'){point++;}   
         
-        printf("Risk to have a sleep apnea disease:  %f %%\n", (point/6)*100);
+        printf("The risk to have a sleep apnea disease:  %f %%\n", (point/6)*100);
 	}	
 	if (age < 18) {
-		printf("---------------------------------------------\n");
-		printf("   You are not in criterion for check BMI.   \n");
+		printf("\n---------------------------------------------\n");
+		printf(" You are not in the criterion for check BMI.   \n");
 		printf("---------------------------------------------\n");
 // 		system("pause");
         return 0;
@@ -59,7 +60,7 @@ int result_BMI(float bmi) {
 		printf("  Risk 	  :	Malnutrition.\n");
 	}
 	else if (bmi > 18.5 && bmi <= 22.9) {
-		printf("  Comment : 	You are normalweight.\n");
+		printf("  Comment : 	You are normal weight.\n");
 		printf("  Risk    : 	None\n");
 	}
 	else if (bmi > 22.9 && bmi <= 24.9) {
@@ -71,7 +72,7 @@ int result_BMI(float bmi) {
 		printf("  Risk    : 	High Blood Pressure and Gestational Diabetes\n");
 	}
 	else if (bmi > 29.9) {
-		printf("  Comment : 	You are obese, please beware for obesity and do exercise with avoid greasy foods.\n");
+		printf("  Comment : 	You are obese, please beware of obesity and do exercise and avoiding greasy foods.\n");
 		printf("  Risk    : 	High Blood Pressure, Gestational Diabetes and Obesity\n");
 	}
 	printf("---------------------------------------------\n");
