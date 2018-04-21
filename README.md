@@ -28,14 +28,19 @@
   - Pasted http://arduino.esp8266.com/stable/package_esp8266com_index.json in **Additional Boards Manager URLs** and click **OK**.
   
   ![](/Self-evaluation/img/step_2_1.png)
+
+---
   
 3. **Download and Install Driver**
   - Go to https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers.
   - Select computer's operating system for download software.
   
   ![](/Self-evaluation/img/step_3_1.png)
-  
+
   - Install the driver on the computer.
+
+---
+
 4. **Download and Install Library**
   - Go to https://github.com/compro-itkmitl/Sleep-Apnea-Tester/tree/master/Library
   - Download all ZIP file.
