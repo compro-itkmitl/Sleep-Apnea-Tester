@@ -82,13 +82,20 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 # ![](/Self-evaluation/img/step_icon.png) How to use
 
 **Part I: Sleep Apnea Risk Test**
-   --For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.--
+   For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.
  MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
 1. Download Adultandchild.c from Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c 
 2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type **gcc Sleep Apnea Risk Test.c -o a.out** for compile the code. 
 3. Type **.\a.out** on command for run the program.
 4. Waiting for the program in running for a minute.
 4. Let's do this Sleep Apnea Risk Test!
+
+    **Tips : Disable Avast CyberCapture Completelly**
+  To completely turn off CyberCapture in your Avast antivirus 2016 follow these steps:
+1. Open Avast user interface and go to settings.
+2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
+3. Confirm by clicking the 'OK' button
+![](/Self-evaluation/img/Avast setting.png)
 
 **Part II : Sleep Apnea Measurement**
 
