@@ -81,9 +81,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 # ![](/Self-evaluation/img/board_icon.png) Board Connection
 
-![](/Self-evaluation/img/2arduino.png)
+![](/Self-evaluation/img/2arduino.jpg)
 ![](/Self-evaluation/img/Board.png)
-![](/Self-evaluation/img/arduino uno.png)
 
 **Connection**
   1. Connect Arduino UNO R3 with Data Logger Shield with headers.
@@ -119,7 +118,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 
 **Part II : Sleep Apnea Board Meter**
-  1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Stop_breath_check/Stop_breath_check.ino
+  1. Download and Run folder: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Stop_breath_check/Stop_breath_check.ino
   2. Go to Tools >> Board then select '**Arduino/Genuino Uno**'.
   3. Select Serial Port for connect USB.
   4. Connect USB for start using, the yellow light sensor for nose breath measure and the green light for month breath measure.
@@ -138,7 +137,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
 ID | First Name | Surname | GitHub Username |
-|---------|------------|----------------|------------ |
+|---------|------------|----------------| :-:
 60070016 | Chaiyapong | Nithipeerawat | [@Sullvo1147](https://github.com/Sullvo1147) |
 60070018 | Thitikorn | Padungwatsawat | [@maxlunla](https://github.com/maxlunla) |
 60070034 | Thirada | Theethum | [@PrintTrd](https://github.com/PrintTrd) |
