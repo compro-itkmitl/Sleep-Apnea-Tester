@@ -1,7 +1,7 @@
 # Sleep Apnea Tester
-&nbsp;&nbsp;&nbsp;&nbsp;Sleep Apnea Tester is a micro-controller project for Computer Programming 2017 with two main objectives are Sleep Apnea surveillance and report irregularity statistics while sleeping.
+&nbsp;&nbsp;&nbsp;&nbsp;Sleep Apnea Tester is a micro-controller project for Computer Programming 2017 with two main objectives are Sleep Apnea surveillance and report abnormal results while sleeping.
   
-&nbsp;&nbsp;&nbsp;&nbsp;Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The statistics will be saved and can be checking to signify irregularity while sleeping if the irregularity was found while sleeping, the user can consult with paramedic for protecting in long term.
+&nbsp;&nbsp;&nbsp;&nbsp;Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The result will be saved and can be checking to signify irregularity while sleeping if the irregularity was found while sleeping, the user can consult with paramedic for protecting in long term.
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;** ***Sleep Apnea Risk Test and Sleep Apnea Measurement Board is only for sleep apnea risk approximate prognosticate, if you found the high risk please go to see a doctor.*** **
 
@@ -85,6 +85,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
   3. Connect Sound Microphone Detection's Vcc port to Board Bread's pin5w and another Sound Microphone Detection's Vcc port to Board Bread's pin7w.
   4. Connect Sound Microphone Detection's GND port to Board Bread's pin5x and pin7x same as Sound Microphone Detection's Vcc port are connected.
   5. Connect Sound Microphone Detection's output port to Data Logger Shield's Digital I/O at D2 and D3.
+  
+![](/Self-evaluation/img/FinishBoard.jpg)
 
 ---
 
@@ -95,8 +97,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 &nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.
 &nbsp;&nbsp;&nbsp;&nbsp;MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
 1. Download Adultandchild.c from Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c 
-2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type **gcc Sleep Apnea Risk Test.c** for compile the code. 
-3. Type **a** on command for run the program.
+2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type **'gcc Sleep Apnea Risk Test.c'** for compile the code. 
+3. Type **'a'** on command for run the program.
 4. Waiting for the program in running for a minute.
 5. Let's do this Sleep Apnea Risk Test!
 
@@ -110,14 +112,22 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 ![](/Self-evaluation/img/avast_setting.png)
 
 
-**Part II : Sleep Apnea Measurement**
+**Part II : Sleep Apnea Measurement Board**
   1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/breathe/Stop_breath_check/Stop_breath_check.ino
-  2. Go to Tool >> Board then select **"Arduino/Genuino Uno"**.
+  2. Go to Tools >> Board then select **"Arduino/Genuino Uno"**.
   3. Select Serial Port for connect USB.
   4. Connect USB for start using, the yellow light sensor for nose breath measure and the green light for month breath measure.
+  
+  ![](/Self-evaluation/img/Sound_sensors.png)
+  
   5. The output will show at the real-time in Serial Monitor if you finish already you can shutdown it immediately.
+ 
+  ![](/Self-evaluation/img/SerialMonitor.jpg)
+  
   6. The record will save at test.txt on SD Card.
 
+  ![](/Self-evaluation/img/SDcardOutput.jpg)
+  
 ---
 
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
