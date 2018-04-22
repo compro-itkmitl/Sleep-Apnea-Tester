@@ -81,7 +81,9 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 # ![](/Self-evaluation/img/board_icon.png) Board Connection
 
+![](/Self-evaluation/img/2arduino.png)
 ![](/Self-evaluation/img/Board.png)
+![](/Self-evaluation/img/arduino uno.png)
 
 **Connection**
   1. Connect Arduino UNO R3 with Data Logger Shield with headers.
@@ -134,12 +136,19 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
   
 ---
 
+# ![](/Self-evaluation/img/assis_icon.png) Software We Use
+Arduino | Fritzing | gcc Compiler
+:-: | :-: | :-: | :-: | :-:
+![](/Self-evaluation/img/arduino_logo.png) | ![](/Self-evaluation/img/Fritzing.png) | ![](/Self-evaluation/img/tdmgcc1.png)
+
+---
+
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
-ID | First Name | Surname
+ID | First Name | Surname | GitHub Username
 --- | --- | ---
-60070016 | Chaiyapong | Nithipeerawat
-60070018 | Thitikorn | Padungwatsawat
-60070034 | Thirada | Theethum
+60070016 | Chaiyapong | Nithipeerawat | [@Sullvo1147](https://github.com/Sullvo1147)
+60070018 | Thitikorn | Padungwatsawat | [@maxlunla](https://github.com/maxlunla)
+60070034 | Thirada | Theethum | [@PrintTrd](https://github.com/PrintTrd)
 
 ---
 
