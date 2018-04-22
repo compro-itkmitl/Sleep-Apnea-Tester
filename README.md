@@ -109,12 +109,17 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
     **Tips : Disable Avast CyberCapture Completelly**
    If you compile by type : 'gcc Sleep Apnea Risk Test.c -o a.out' and run by type : '.\a.out'. Avast CyberCapture will appear on screen.To completely turn off CyberCapture in your Avast antivirus 2016 follow these steps:
-  1. Open Avast user interface and go to settings.
-  2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
-  3. Confirm by clicking the 'OK' button
-    ![](/Self-evaluation/img/avast_setting.png)
+    1. Open Avast user interface and go to settings.
+    2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
+    3. Confirm by clicking the 'OK' button
+        ![](/Self-evaluation/img/avast_setting.png)
+
 
 **Part II : Sleep Apnea Measurement**
+1.เปิดไฟล์อาร์ดูลโนStop_breath_check (แปะลิงค์ไว้ก็ดี)
+2.ไปที่Tools>เลือกบอร์ด"Arduino/Genuino Uno">เลือกPort
+3.เสียบสายUSB>ใช้เซนเซอร์เสียงไฟสีเหลืองสำหรับวัดที่ลมหายใจจมูก และเซนเซอร์เสียงไฟสีเขียวสำหรับวัดลมที่ปาก
+4. ระหว่างวัด จะแสดงผลแบบreal time ใน Serial Monitor เมื่อต้องการสิ้นสุดการวัดให้กดปิดได้เลย และผลการวัดจะอยู่ในไฟล์ test.txt ที่ถูกบันทึกลงในSD card
 
 ---
 
