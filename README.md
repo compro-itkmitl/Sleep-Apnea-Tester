@@ -125,7 +125,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
   
   ![](/Self-evaluation/img/Sound_sensors.png)
   
-  5. The output will show at the real-time in Serial Monitor. If you finish already, you can shutdown it immediately.
+  5. The output will show at the real-time in Serial Monitor. If you already finish, you can immediately shutdown.
  
   ![](/Self-evaluation/img/SerialMonitor.jpg)
   
@@ -150,6 +150,8 @@ Assist.Prof. Dr. Kitsuchart Pasupa | Assist.Prof. Dr. Panwit Tuwanut
 |![](/Self-evaluation/img/teacher_kitsuchart.png) | ![](/Self-evaluation/img/teacher_panwit.png)|
 
 ---
+
+Computer Programming 2017
 
 Faculty of Information Technology
 
