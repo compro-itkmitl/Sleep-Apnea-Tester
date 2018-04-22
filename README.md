@@ -3,7 +3,7 @@
   
 &nbsp;&nbsp;&nbsp;&nbsp;Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The result will be saved and can be checking to signify irregularity while sleeping if the irregularity was found while sleeping, the user can consult with paramedic for protecting in long term.
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;** ***Sleep Apnea Risk Test and Sleep Apnea Measurement Board is only for sleep apnea risk approximate prognosticate, if you found the high risk please go to see a doctor.*** **
+#### &nbsp;&nbsp;&nbsp;&nbsp;** ***Sleep Apnea Risk Test Program and Sleep Apnea Measurement Board is only for sleep apnea risk approximate prognosticate, if you found the high risk please go to see a doctor.*** **
 
 ---
 
@@ -73,6 +73,9 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 :-: | :-: | :-: | :-: | :-:
 ![](/Self-evaluation/img/data_shield.png) | ![](/Self-evaluation/img/bread_board.png) | ![](/Self-evaluation/img/sd_card.png) | ![](/Self-evaluation/img/cell.png) | ![](/Self-evaluation/img/gcc.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;If you don't have GCC compiler yet, you can install this.
+> MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
+
 ---
 
 # ![](/Self-evaluation/img/board_icon.png) Board Connection
@@ -92,29 +95,29 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 # ![](/Self-evaluation/img/step_icon.png) How to use
 
-**Part I: Sleep Apnea Risk Test**
+**Part I: Sleep Apnea Risk Test Program**
 
-&nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.
-&nbsp;&nbsp;&nbsp;&nbsp;MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
+&nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Measurement".
+
 1. Download Adultandchild.c from Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c 
-2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type **'gcc Sleep Apnea Risk Test.c'** for compile the code. 
-3. Type **'a'** on command for run the program.
+2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
+3. Type '**a**' on command for run the program.
 4. Waiting for the program in running for a minute.
 5. Let's do this Sleep Apnea Risk Test!
 
-&nbsp;&nbsp;&nbsp;&nbsp;**Tips: Disable Avast CyberCapture Completely**
-
-&nbsp;&nbsp;&nbsp;&nbsp;If you compile by type: **'gcc Sleep Apnea Risk Test.c -o a.out'** and run by type: **'.\a.out'**. Avast CyberCapture will appear on the screen.To completely turn off CyberCapture in your Avast antivirus 2016 follow these steps:
-    1. Open Avast user interface and go to settings.
-    2. In the 'General' tab (first item) uncheck **'Enable CyberCapture'**
-    3. Confirm by clicking the **'OK'** button
-    
-![](/Self-evaluation/img/avast_setting.png)
+>&nbsp;&nbsp;&nbsp;&nbsp;**Tips: Disable Avast CyberCapture Completely**
+>
+>&nbsp;&nbsp;&nbsp;&nbsp;If you compile by type: '**gcc Sleep Apnea Risk Test.c -o a.out**' and run by type: '**.\a.out**'. Avast >CyberCapture will appear on the screen.To completely turn off CyberCapture in your Avast antivirus follow these steps:
+>    1. Open Avast user interface and go to settings.
+>    2. In the 'General' tab (first item) uncheck '**Enable CyberCapture**'
+>    3. Confirm by clicking the '**OK**' button
+>
+>![](/Self-evaluation/img/avast_setting.png)
 
 
 **Part II : Sleep Apnea Measurement Board**
   1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/breathe/Stop_breath_check/Stop_breath_check.ino
-  2. Go to Tools >> Board then select **"Arduino/Genuino Uno"**.
+  2. Go to Tools >> Board then select '**Arduino/Genuino Uno**'.
   3. Select Serial Port for connect USB.
   4. Connect USB for start using, the yellow light sensor for nose breath measure and the green light for month breath measure.
   
