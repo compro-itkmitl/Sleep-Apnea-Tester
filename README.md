@@ -109,10 +109,10 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
     **Tips : Disable Avast CyberCapture Completelly**
    If you compile by type : 'gcc Sleep Apnea Risk Test.c -o a.out' and run by type : '.\a.out'. Avast CyberCapture will appear on screen.To completely turn off CyberCapture in your Avast antivirus 2016 follow these steps:
-1. Open Avast user interface and go to settings.
-2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
-3. Confirm by clicking the 'OK' button
-![](/Self-evaluation/img/avast_setting.png)
+  1. Open Avast user interface and go to settings.
+  2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
+  3. Confirm by clicking the 'OK' button
+    ![](/Self-evaluation/img/avast_setting.png)
 
 **Part II : Sleep Apnea Measurement**
 
