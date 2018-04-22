@@ -65,7 +65,7 @@
 # ![](/Self-evaluation/img/requirement_icon.png) Requirements
 Arduino UNO R3 | USB | Jumper | High Sensitive sound Microphone Detection Module
 :-: | :-: | :-: | :-:
-![](/Self-evaluation/img/arduino.png) | ![](/Self-evaluation/img/usb.png) | ![](/Self-evaluation/img/jumper.png) | ![](/Self-evaluation/img/sound_module.png)
+![](/Self-evaluation/img/arduino.png) | ![](/Self-evaluation/img/usb.png) | ![](/Self-evaluation/img/jumper.png) | ![](/Self-evaluation/img/sound_module.png) ![](/Self-evaluation/img/sound_module.png)
 
 Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 :-: | :-: | :-: | :-: | :-:
@@ -80,6 +80,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 ---
 
 # ![](/Self-evaluation/img/step_icon.png) How to use
+
 **Part I: Sleep Apnea Risk Test**
    --For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.--
  MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
@@ -89,9 +90,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 4. Waiting for the program in running for a minute.
 4. Let's do this Sleep Apnea Risk Test!
 
----
-
 **Part II : Sleep Apnea Measurement**
+
 ---
 
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
