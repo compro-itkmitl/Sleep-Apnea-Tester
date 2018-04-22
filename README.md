@@ -3,7 +3,7 @@
   
 &nbsp;&nbsp;&nbsp;&nbsp;Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The statistics will be saved and can be checking to signify irregularity while sleeping if the irregularity was found while sleeping, the user can consult with paramedic for protecting in long term.
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;**Sleep Apnea Risk Test and Sleep Apnea Measurement Board is only for sleep apnea risk approximate prognosticate, if you found the high risk please go to see a doctor.**
+#### &nbsp;&nbsp;&nbsp;&nbsp;** ***Sleep Apnea Risk Test and Sleep Apnea Measurement Board is only for sleep apnea risk approximate prognosticate, if you found the high risk please go to see a doctor.*** **
 
 ---
 
