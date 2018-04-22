@@ -96,9 +96,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 ---
 
-# ![](/Self-evaluation/img/step_icon.png) How to use
-
-**Part I: Sleep Apnea Risk Test**
+# ![](/Self-evaluation/img/step_icon.png) How to use Sleep Apnea Risk Tes**
    For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.
  MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
 1. Download Adultandchild.c from Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c 
@@ -113,14 +111,6 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
     2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
     3. Confirm by clicking the 'OK' button
         ![](/Self-evaluation/img/avast_setting.png)
-
-
-**Part II : Sleep Apnea Measurement**
-1.เปิดไฟล์อาร์ดูลโนStop_breath_check (แปะลิงค์ไว้ก็ดี)
-2.ไปที่Tools>เลือกบอร์ด"Arduino/Genuino Uno">เลือกPort
-3.เสียบสายUSB>ใช้เซนเซอร์เสียงไฟสีเหลืองสำหรับวัดที่ลมหายใจจมูก และเซนเซอร์เสียงไฟสีเขียวสำหรับวัดลมที่ปาก
-4. ระหว่างวัด จะแสดงผลแบบreal time ใน Serial Monitor เมื่อต้องการสิ้นสุดการวัดให้กดปิดได้เลย และผลการวัดจะอยู่ในไฟล์ test.txt ที่ถูกบันทึกลงในSD card
-
 ---
 
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
