@@ -77,6 +77,23 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 ![](/Self-evaluation/img/Board.png)
 
+**Connection**
+  1. Connect Arduino UNO R3 with Data Logger Shield with headers.
+  2. Connect Data Logger Shield's 5v port to Board Bread's pin3w and GND port to Board Bread's pin3x.
+  3. Connect Sound Microphone Detection's Vcc port to Board Bread's pin5w and another Sound Microphone Detection's Vcc port to Board Bread's pin7w.
+  4. Connect Sound Microphone Detection's GND port to Board Bread's pin5x and pin7x same as Sound Microphone Detection's Vcc port are connected.
+  5. Connect Sound Microphone Detection's output port to Data Logger Shield's Digital I/O at D2 and D3.
+
+---
+
+**Board Use**
+  1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/breathe/Stop_breath_check/Stop_breath_check.ino
+  2. Go to Tool >> Board then select **"Arduino/Genuino Uno"**.
+  3. Select Serial Port for connect USB.
+  4. Connect USB for start using, the yellow light sensor for nose breath measure and the green light for month breath measure.
+  5. The output will show at the real-time in Serial Monitor if you finish already you can shutdown it immediately.
+  6. The record will save at test.txt on SD Card.
+
 ---
 
 # ![](/Self-evaluation/img/step_icon.png) How to use
@@ -90,12 +107,17 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 4. Waiting for the program in running for a minute.
 4. Let's do this Sleep Apnea Risk Test!
 
+<<<<<<< HEAD
     **Tips : Disable Avast CyberCapture Completelly**
   To completely turn off CyberCapture in your Avast antivirus 2016 follow these steps:
+=======
+**Tips : Disable Avast CyberCapture Completelly**
+   To completely turn off CyberCapture in your Avast antivirus 2016 follow these steps:
+>>>>>>> e3d2f0af3668e61c2095ca5a49c54ee8fbe8ef15
 1. Open Avast user interface and go to settings.
 2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
 3. Confirm by clicking the 'OK' button
-![](/Self-evaluation/img/Avast setting.PNG)
+![](/Self-evaluation/img/Avast setting.png)
 
 **Part II : Sleep Apnea Measurement**
 
