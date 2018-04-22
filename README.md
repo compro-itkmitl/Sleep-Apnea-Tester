@@ -81,7 +81,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 # ![](/Self-evaluation/img/board_icon.png) Board Connection
 
-![](/Self-evaluation/img/2arduino.jpg)   ![](/Self-evaluation/img/Board.png)
+![](/Self-evaluation/img/2arduino.jpg) ![](/Self-evaluation/img/Board.png)
+> Thanks for "[Fritzing](http://fritzing.org/home/)", to create the design of arduino boards.
 
 **Connection**
   1. Connect Arduino UNO R3 with Data Logger Shield with headers.
