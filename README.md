@@ -67,9 +67,9 @@ Arduino UNO R3 | USB | Jumper | High Sensitive sound Microphone Detection Module
 :-: | :-: | :-: | :-:
 ![](/Self-evaluation/img/arduino.png) | ![](/Self-evaluation/img/usb.png) | ![](/Self-evaluation/img/jumper.png) | ![](/Self-evaluation/img/sound_module.png)
 
-Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122
-:-: | :-: | :-: | :-:
-![](/Self-evaluation/img/data_shield.png) | ![](/Self-evaluation/img/bread_board.png) | ![](/Self-evaluation/img/sd_card.png) | ![](/Self-evaluation/img/cell.png)
+Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
+:-: | :-: | :-: | :-: | :-:
+![](/Self-evaluation/img/data_shield.png) | ![](/Self-evaluation/img/bread_board.png) | ![](/Self-evaluation/img/sd_card.png) | ![](/Self-evaluation/img/cell.png) | ![](/Self-evaluation/img/gcc.png)
 
 ---
 
@@ -80,13 +80,16 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122
 ---
 
 # How to use
-**Part I : Sleep Apnea Risk Test**
-   --For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Measurement".--
+**Part I: Sleep Apnea Risk Test**
+   --For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.--
  MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
-1. Go to Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c and Download.
-2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type: **gcc Sleep Apnea Risk Test.c -o a.out**. This will compile the code. 
-3. Write the command: **.\a.out** ,this will run the program.
+1. Download Adultandchild.c from Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c 
+2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type **gcc Sleep Apnea Risk Test.c -o a.out** for compile the code. 
+3. Type **.\a.out** on command for run the program.
+4. Waiting for the program in running for a minute.
 4. Let's do this Sleep Apnea Risk Test!
+
+---
 
 **Part II : Sleep Apnea Measurement**
 ---
