@@ -37,20 +37,9 @@ void setup() {
   }
   int check_file = ReadText();
 
-      if(check_file != 0){
-        Serial.println("Something in \"test.txt\" file.");
-        SD.remove("testt.txt");
-        Serial.println("Removing test.txt");
-        myFile = SD.open("test.txt");
-        myFile.close();
-      }
-
-        myFile = SD.open("test.txt", FILE_WRITE);
 
 
-
-
-//  myFile = SD.open("test.txt", FILE_WRITE);
+  myFile = SD.open("output.txt", FILE_WRITE);
 }
 void loop() {
 

@@ -25,9 +25,9 @@ void write_in_file_2digits(int number) {
 
 int ReadText(){                                  // re-open the file for reading:
   int roundd=0;
-  myFile = SD.open("test.txt");
+  myFile = SD.open("output.txt");
   if (myFile) {
-    Serial.println("--------           test.txt          --------");
+    Serial.println("--------           output.txt          --------");
 
     // read from the file until there's nothing else in it:
     while (myFile.available()){
@@ -37,7 +37,7 @@ int ReadText(){                                  // re-open the file for reading
     myFile.close();                              // close the file:
   } 
   else {
-    Serial.println("error opening test.txt");  // if the file didn't open, print an error:
+    Serial.println("error opening output.txt");  // if the file didn't open, print an error:
   }
   Serial.println("-----------------------------------------------");
   return roundd;
@@ -89,35 +89,45 @@ String post(int num){
 
 
 void WriteText(String txt){
-  myFile = SD.open("test.txt", FILE_WRITE);
+  myFile = SD.open("output.txt", FILE_WRITE);
   if (myFile) {
     myFile.println(txt);
     myFile.close();
     Serial.println("Save in file....Done!");
   } 
   else {
-    Serial.println("error opening test.txt");  // if the file didn't open, print an error:
+    Serial.println("error opening output.txt");  // if the file didn't open, print an error:
   }
 }
 
 //  if(check_file != 0){
-//    Serial.println("Something in \"test.txt\" file. Do you want to delete it? y/n");
+//    Serial.println("Something in \"output.txt\" file. Do you want to delete it? y/n");
 //        while (!Serial.available()) {
 //                // read the incoming byte:
 //                command = Serial.readString();
 //                Serial.println(command);
 //                if(command == "y"){
 //                  Serial.println("Removing output.txt");
-//                  SD.remove("test.txt");
-//                  myFile = SD.open("test.txt");
+//                  SD.remove("output.txt");
+//                  myFile = SD.open("output.txt");
 //                  myFile.close();
 //                  break;
 //                }
 //                else if(command == "n"){
 //                  Serial.println("Keep data in file");
-//                  myFile = SD.open("test.txt", FILE_WRITE);
+//                  myFile = SD.open("output.txt", FILE_WRITE);
 //                  myFile.close();
 //                  break;
 //                }
 //        }
 //  }
+
+
+
+//      if(check_file != 0){
+//        Serial.println("Something in \"output.txt\" file.");
+//        SD.remove("output.txt");
+//        Serial.println("Removing output.txt");
+//        myFile = SD.open("output.txt");
+//        myFile.close();
+//      }
