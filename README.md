@@ -3,7 +3,7 @@
   
 &nbsp;&nbsp;&nbsp;&nbsp;Presently, the problem in sleeping was increase and these problems can risk assessment in diseases. Sleep Apnea Tester can solve sleep problem by respiratory rate measure, snore check and others while sleeping with Sound Microphone Detection Module. The result will be saved and can be checking to signify irregularity while sleeping if the irregularity was found while sleeping, the user can consult with paramedic for protecting in long term.
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;** ***Sleep Apnea Risk Test Program and Sleep Apnea Measurement Board is only for sleep apnea risk approximate prognosticate, if you found the high risk please go to see a doctor.*** **
+#### &nbsp;&nbsp;&nbsp;&nbsp;** ***Sleep Apnea Risk Test Program and Sleep Apnea Board Meter is only predict sleep apnea disease's risk. If you found the high risk, please go to see a doctor!*** **
 
 ---
 
@@ -73,7 +73,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 :-: | :-: | :-: | :-: | :-:
 ![](/Self-evaluation/img/data_shield.png) | ![](/Self-evaluation/img/bread_board.png) | ![](/Self-evaluation/img/sd_card.png) | ![](/Self-evaluation/img/cell.png) | ![](/Self-evaluation/img/gcc.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;If you don't have GCC compiler yet, you can install this.
+>&nbsp;&nbsp;&nbsp;&nbsp;If you don't have GCC compiler yet, you can install this.
+>
 > MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
 
 ---
@@ -97,9 +98,9 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 **Part I: Sleep Apnea Risk Test Program**
 
-&nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Measurement".
+&nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Board Meter".
 
-1. Download Adultandchild.c from Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c 
+1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Self-evaluation/Risk's%20Self-evaluation/Sleep%20Apnea%20Risk%20Test.c
 2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
 3. Type '**a**' on command for run the program.
 4. Waiting for the program in running for a minute.
@@ -115,7 +116,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 >![](/Self-evaluation/img/avast_setting.png)
 
 
-**Part II : Sleep Apnea Measurement Board**
+**Part II : Sleep Apnea Board Meter**
   1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/breathe/Stop_breath_check/Stop_breath_check.ino
   2. Go to Tools >> Board then select '**Arduino/Genuino Uno**'.
   3. Select Serial Port for connect USB.
@@ -123,11 +124,11 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
   
   ![](/Self-evaluation/img/Sound_sensors.png)
   
-  5. The output will show at the real-time in Serial Monitor if you finish already you can shutdown it immediately.
+  5. The output will show at the real-time in Serial Monitor. If you finish already, you can shutdown it immediately.
  
   ![](/Self-evaluation/img/SerialMonitor.jpg)
   
-  6. The record will save at test.txt on SD Card.
+  6. The record will save at OUTPUT.txt on SD Card.
 
   ![](/Self-evaluation/img/SDcardOutput.jpg)
   
