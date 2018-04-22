@@ -117,7 +117,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 1. Open Avast user interface and go to settings.
 2. In the 'General' tab (first item) uncheck 'Enable CyberCapture'
 3. Confirm by clicking the 'OK' button
-![](/Self-evaluation/img/Avast setting.PNG)
+![](/Self-evaluation/img/Avast setting.png)
 
 **Part II : Sleep Apnea Measurement**
 
