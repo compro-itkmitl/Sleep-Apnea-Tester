@@ -102,7 +102,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 &nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Board Meter".
 
-1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Self-evaluation/Risk's%20Self-evaluation/Sleep%20Apnea%20Risk%20Test.c
+1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Sleep%20Apnea%20Risk%20Test.c
 2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
 3. Type '**a**' on command for run the program.
 4. Waiting for the program in running for a minute.
@@ -119,7 +119,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 
 **Part II : Sleep Apnea Board Meter**
-  1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/breathe/Stop_breath_check/Stop_breath_check.ino
+  1. Open Stop_breath_check file: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Stop_breath_check/Stop_breath_check.ino
   2. Go to Tools >> Board then select '**Arduino/Genuino Uno**'.
   3. Select Serial Port for connect USB.
   4. Connect USB for start using, the yellow light sensor for nose breath measure and the green light for month breath measure.
@@ -136,19 +136,12 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
   
 ---
 
-# ![](/Self-evaluation/img/assis_icon.png) Software We Use
-Arduino | Fritzing | gcc Compiler
-:-: | :-: | :-: | :-: | :-:
-![](/Self-evaluation/img/arduino_logo.png) | ![](/Self-evaluation/img/Fritzing.png) | ![](/Self-evaluation/img/tdmgcc1.png)
-
----
-
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
-ID | First Name | Surname | GitHub Username
---- | --- | ---
-60070016 | Chaiyapong | Nithipeerawat | [@Sullvo1147](https://github.com/Sullvo1147)
-60070018 | Thitikorn | Padungwatsawat | [@maxlunla](https://github.com/maxlunla)
-60070034 | Thirada | Theethum | [@PrintTrd](https://github.com/PrintTrd)
+ID | First Name | Surname | GitHub Username |
+|---------|------------|----------------|------------ |
+60070016 | Chaiyapong | Nithipeerawat | [@Sullvo1147](https://github.com/Sullvo1147) |
+60070018 | Thitikorn | Padungwatsawat | [@maxlunla](https://github.com/maxlunla) |
+60070034 | Thirada | Theethum | [@PrintTrd](https://github.com/PrintTrd) |
 
 ---
 
