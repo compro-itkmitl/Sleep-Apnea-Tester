@@ -79,6 +79,18 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122
 
 ---
 
+# How to use
+**Part I : Sleep Apnea Risk Test**
+   --For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Measurement".--
+ MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
+1. Go to Sleep-Apnea-Tester/Self-evaluation/Risk's Self-evaluation/Adultandchild.c and Download.
+2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type: **gcc Sleep Apnea Risk Test.c -o a.out**. This will compile the code. 
+3. Write the command: **.\a.out** ,this will run the program.
+4. Let's do this Sleep Apnea Risk Test!
+
+**Part II : Sleep Apnea Measurement**
+---
+
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
 ID | First Name | Surname
 --- | --- | ---
