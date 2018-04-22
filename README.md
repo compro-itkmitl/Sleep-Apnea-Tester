@@ -79,7 +79,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 ---
 
-# How to use
+# ![](/Self-evaluation/img/step_icon.png) How to use
 **Part I: Sleep Apnea Risk Test**
    --For check risk to be Sleep Apnea Syndrome apart from **"Sleep Apnea Measurement"**.--
  MINGW gcc Compiler : https://sourceforge.net/projects/tdm-gcc/
