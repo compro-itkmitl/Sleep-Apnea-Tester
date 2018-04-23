@@ -86,10 +86,10 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 **Connection**
   1. Connect Arduino UNO R3 with Data Logger Shield with headers.
-  2. Connect Data Logger Shield's 5v port to Board Bread's pin3w and GND port to Board Bread's pin3x.
+  2. Connect Data Logger Shield's 5v port and GND to Board Bread's pin.
   3. Connect Sound Microphone Detection's Vcc port to Board Bread's pin5w and another Sound Microphone Detection's Vcc port to Board Bread's pin7w.
-  4. Connect Sound Microphone Detection's GND port to Board Bread's pin5x and pin7x same as Sound Microphone Detection's Vcc port are connected.
-  5. Connect Sound Microphone Detection's output port to Data Logger Shield's Digital I/O at D2 and D3.
+  4. Connect Sound Microphone Detection's GND port and VCC port to Board Bread's pin for received electric from 5v port.
+  5. Connect Sound Microphone Detection's output port to Data Logger Shield's Digital I/O at D2 and D3 for send output to Data Logger Shield.
   
 ![](/Self-evaluation/img/FinishBoard.jpg)
 
