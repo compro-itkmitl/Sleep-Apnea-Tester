@@ -156,7 +156,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 # ![](/Self-evaluation/img/assis_icon.png) Assistant Teacher
 Assist.Prof. Dr. Kitsuchart Pasupa | Assist.Prof. Dr. Panwit Tuwanut
 |:-:|:-:|
-|![](/Self-evaluation/img/eacher_kitsuchart.jpg) | ![](/Self-evaluation/img/teacher_panwit.jpg)|
+|![](/Self-evaluation/img/eacher_kritsuchart.jpg) | ![](/Self-evaluation/img/teacher_panwit.jpg)|
 
 ---
 
