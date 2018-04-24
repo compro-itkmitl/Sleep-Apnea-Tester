@@ -123,7 +123,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 5. Let's do this Sleep Apnea Risk Test!
 
 ![](/Self-evaluation/img/output.png)
->Output
+>Output on Command Prompt (CMD Commands)
 
 **Part II : Sleep Apnea Board Meter**
   1. Download and Run folder: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/tree/master/Real%20use/Stop_breath_check
