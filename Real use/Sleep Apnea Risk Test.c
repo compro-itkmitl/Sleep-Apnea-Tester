@@ -214,13 +214,13 @@ int main() {
     if (age<18){base=18;} else{base=25;}
     printf("  The risk to have a sleep apnea disease : %.2f%% \n", ((point+OSA+ABN+MIX)/base)*100);
     if (OSA>ABN && OSA>MIX){
-        printf("  Have a risk to be \"Obstructive Sleep Apnea Syndrome\"\n");
+        printf("  Have a risk to be \"Obstructive Sleep Apnea Syndrome\"type\n");
     }
     if (ABN>OSA && ABN>MIX){
-        printf("  Have a risk to be \"Abnormal Sleep Apnea Syndrome\"\n");
+        printf("  Have a risk to be \"Abnormal Sleep Apnea Syndrome\"type\n");
     }
     if (MIX>ABN && MIX>OSA){
-        printf("  Have a risk to be \"Mixed Sleep Apnea Syndrome\"\n");
+        printf("  Have a risk to be \"Mixed Sleep Apnea Syndrome\"type\n");
     }
     printf("-------------------------------------------------------\n");
     printf("   -------------------------------------------------\n");
@@ -228,7 +228,7 @@ int main() {
 
 
     FILE *fp;
-    if ((fp = fopen("C:\\Users\\PrintTrd\\Desktop\\Self-evaluation\\Risk's Self-evaluation\\file.txt", "w")) == NULL){
+    if ((fp = fopen("C:\\Users\\PrintTrd\\Desktop\\Sleep-Apnea-Tester\\Real use\\file.txt", "w")) == NULL){
         printf("Cannot open file\n");
         exit(1);
     }
@@ -242,13 +242,13 @@ int main() {
     fprintf(fp, "                                BMI  =  %.2f \n", bmi);
     fprintf(fp, "           Risk to have a sleep apnea disease : %.2f%%\n", ((point+OSA+ABN+MIX)/base)*100);
     if (OSA>ABN && OSA>MIX){
-        fprintf(fp, "  Have a risk to be \"Obstructive Sleep Apnea Syndrome\"\n");
+        fprintf(fp, "  Have a risk to be \"Obstructive Sleep Apnea Syndrome\"type\n");
     }
     if (ABN>OSA && ABN>MIX){
-        fprintf(fp, "  Have a risk to be \"Abnormal Sleep Apnea Syndrome\"\n");
+        fprintf(fp, "  Have a risk to be \"Abnormal Sleep Apnea Syndrome\"type\n");
     }
     if (MIX>ABN && MIX>OSA){
-        fprintf(fp, "  Have a risk to be \"Mixed Sleep Apnea Syndrome\"\n");
+        fprintf(fp, "  Have a risk to be \"Mixed Sleep Apnea Syndrome\"type\n");
     }
 
     fclose(fp);

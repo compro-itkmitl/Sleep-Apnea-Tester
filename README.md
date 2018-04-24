@@ -100,21 +100,30 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 &nbsp;&nbsp;&nbsp;&nbsp;For check risk to be Sleep Apnea Syndrome apart from "Sleep Apnea Board Meter".
 
-1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Sleep%20Apnea%20Risk%20Test.c
-2. Open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
-3. Type '**a**' on command for run the program.
-4. Waiting for the program in running for a minute.
-5. Let's do this Sleep Apnea Risk Test!
-
 >&nbsp;&nbsp;&nbsp;&nbsp;**Tips: Disable Avast CyberCapture Completely**
 >
->&nbsp;&nbsp;&nbsp;&nbsp;If you compile by type: '**gcc Sleep Apnea Risk Test.c -o a.out**' and run by type: '**.\a.out**'. Avast >CyberCapture will appear on the screen.To completely turn off CyberCapture in your Avast antivirus follow these steps:
+>&nbsp;&nbsp;&nbsp;&nbsp;You should turn off CyberCapture in your Avast antivirus first, because Avast CyberCapture will appear on the screen. You can follow these steps:
 >    1. Open Avast user interface and go to settings.
 >    2. In the 'General' tab (first item) uncheck '**Enable CyberCapture**'
 >    3. Confirm by clicking the '**OK**' button
 >
 >![](/Self-evaluation/img/avast_setting.png)
 
+1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Sleep%20Apnea%20Risk%20Test.c
+2. Open file **Sleep Apnea Risk Test.c** and Change Directory to folder that you want to save the result
+
+![](/Self-evaluation/img/selfedit.png)
+
+2. Save file and open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
+3. Type '**a**' on command for run the program.
+
+![](/Self-evaluation/img/compile.png)
+
+4. Waiting for the program in running for a minute.
+5. Let's do this Sleep Apnea Risk Test!
+
+![](/Self-evaluation/img/output.png)
+>Output
 
 **Part II : Sleep Apnea Board Meter**
   1. Download and Run folder: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/tree/master/Real%20use/Stop_breath_check
