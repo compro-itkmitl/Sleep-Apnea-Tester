@@ -112,17 +112,17 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Sleep%20Apnea%20Risk%20Test.c
 2. Open file **Sleep Apnea Risk Test.c** and Change Directory to folder that you want to save the result
 
-![](/Self-evaluation/img/selfedit.PNG)
+![](/Self-evaluation/img/selfedit.png)
 
 2. Save file and open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
 3. Type '**a**' on command for run the program.
 
-![](/Self-evaluation/img/compile.PNG)
+![](/Self-evaluation/img/compile.png)
 
 4. Waiting for the program in running for a minute.
 5. Let's do this Sleep Apnea Risk Test!
 
-![](/Self-evaluation/img/output.PNG)
+![](/Self-evaluation/img/output.png)
 
 >Output on Command Prompt (CMD Commands)
 
@@ -156,7 +156,7 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 # ![](/Self-evaluation/img/assis_icon.png) Assistant Teacher
 Assist.Prof. Dr. Kitsuchart Pasupa | Assist.Prof. Dr. Panwit Tuwanut
 |:-:|:-:|
-|![](/Self-evaluation/img/teacher_kitsuchart.png) | ![](/Self-evaluation/img/teacher_panwit.png)|
+|![](/Self-evaluation/img/teacher_kitsuchart.jpg) | ![](/Self-evaluation/img/teacher_panwit.jpg)|
 
 ---
 
