@@ -112,17 +112,18 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Sleep%20Apnea%20Risk%20Test.c
 2. Open file **Sleep Apnea Risk Test.c** and Change Directory to folder that you want to save the result
 
-![](/Self-evaluation/img/selfedit.png)
+![](/Self-evaluation/img/selfedit.PNG)
 
 2. Save file and open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
 3. Type '**a**' on command for run the program.
 
-![](/Self-evaluation/img/compile.png)
+![](/Self-evaluation/img/compile.PNG)
 
 4. Waiting for the program in running for a minute.
 5. Let's do this Sleep Apnea Risk Test!
 
-![](/Self-evaluation/img/output.png)
+![](/Self-evaluation/img/output.PNG)
+
 >Output on Command Prompt (CMD Commands)
 
 **Part II : Sleep Apnea Board Meter**
@@ -144,11 +145,11 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 ---
 
 # ![](/Self-evaluation/img/rsz_team-icon.png) Members
-ID | First Name | Surname | GitHub Username |
-| :-: | :-: | :-: | :-:
-60070016 | Chaiyapong | Nithipeerawat | [@Sullvo1147](https://github.com/Sullvo1147) |
-60070018 | Thitikorn | Padungwatsawat | [@maxlunla](https://github.com/maxlunla) |
-60070034 | Thirada | Theethum | [@PrintTrd](https://github.com/PrintTrd) |
+&nbsp; | ID | First Name | Surname | GitHub Username |
+:-: | :-: | :-: | :-: | :-:
+![](/Self-evaluation/img/sun.jpg) | 60070016 | Chaiyapong | Nithipeerawat | [@Sullvo1147](https://github.com/Sullvo1147) |
+![](/Self-evaluation/img/max.jpg) | 60070018 | Thitikorn | Padungwatsawat | [@maxlunla](https://github.com/maxlunla) |
+![](/Self-evaluation/img/print.jpg) | 60070034 | Thirada | Theethum | [@PrintTrd](https://github.com/PrintTrd) |
 
 ---
 
