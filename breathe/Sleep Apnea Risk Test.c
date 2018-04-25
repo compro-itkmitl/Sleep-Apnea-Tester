@@ -228,7 +228,7 @@ int main() {
 
 
     FILE *fp;
-    if ((fp = fopen("C:\\Users\\PrintTrd\\Desktop\\Sleep-Apnea-Tester\\Real use\\file.txt", "w")) == NULL){
+    if ((fp = fopen("C:\\Users\\PrintTrd\\Desktop\\Sleep-Apnea-Tester\\breathe\\file.txt", "w")) == NULL){
         printf("Cannot open file\n");
         exit(1);
     }
@@ -253,5 +253,6 @@ int main() {
 
     fclose(fp);
 
+   system("pause");
     return 0;
 }

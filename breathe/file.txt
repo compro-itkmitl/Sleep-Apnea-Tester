@@ -1,10 +1,11 @@
-                         Tue Apr 24 09:30:08 2018
+                         Wed Apr 25 13:03:26 2018
                          -------------------------------
-                                Age  =  45 years old.
-                                Sex  =  Male
-                             Height  =  167.00 cm.
-                             Weight  =  56.00 kg.
+                                Age  =  19 years old.
+                                Sex  =  Female
+                             Height  =  160.00 cm.
+                             Weight  =  52.40 kg.
 
                        ---------  RESULT  ---------
-                                BMI  =  20.08 
-           Risk to have a sleep apnea disease : 40.00%
+                                BMI  =  20.47 
+           Risk to have a sleep apnea disease : 30.00%
+  Have a risk to be "Mixed Sleep Apnea Syndrome"type

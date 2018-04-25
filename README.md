@@ -104,24 +104,23 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 
 >&nbsp;&nbsp;&nbsp;&nbsp;**Tips: Disable Avast CyberCapture Completely**
 >
->&nbsp;&nbsp;&nbsp;&nbsp;You should turn off CyberCapture in your Avast antivirus first, because Avast CyberCapture will appear on the screen. You can follow these steps:
+>&nbsp;&nbsp;&nbsp;&nbsp;You should turn off CyberCapture in your Avast antivirus first, if Avast CyberCapture appear on the screen. You can follow these steps:
 >    1. Open Avast user interface and go to settings.
->    2. In the 'General' tab (first item) uncheck '**Enable CyberCapture**'
->    3. Confirm by clicking the '**OK**' button
+>    2. In the 'General' tab (first item) uncheck '**Enable CyberCapture**'.
+>    3. Confirm by clicking the '**OK**' button.
 >
 >![](/Self-evaluation/img/avast_setting.png)
 
-1. Download Adultandchild.c from https://github.com/compro-itkmitl/Sleep-Apnea-Tester/blob/master/Real%20use/Sleep%20Apnea%20Risk%20Test.c
-2. Open file **Sleep Apnea Risk Test.c** and Change Directory to folder that you want to save the result
+1. Go to Sleep-Apnea-Tester >> breathe.
+2. Open file **Sleep Apnea Risk Test.c** and Change Directory to folder that you want to save the result.
 
 ![](/Self-evaluation/img/selfedit.png)
 
-2. Save file and open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
-3. Type '**a**' on command for run the program.
+3. Save file and open the Command Prompt (CMD Commands) and Change Directory to this file then type '**gcc Sleep Apnea Risk Test.c**' for compile the code. 
+4. Type '**a**' on command for run the program or open file **a.exe**.
 
 ![](/Self-evaluation/img/compile.png)
 
-4. Waiting for the program in running for a minute.
 5. Let's do this Sleep Apnea Risk Test!
 
 ![](/Self-evaluation/img/output.png)
@@ -129,8 +128,8 @@ Data Logger Shield | Breadboard | SD card  | Lithium Cell CR122 | Cmd with Gcc
 >Output on Command Prompt (CMD Commands)
 
 **Part II : Sleep Apnea Board Meter**
-  1. Download and Run folder: https://github.com/compro-itkmitl/Sleep-Apnea-Tester/tree/master/Real%20use/Stop_breath_check
-  2. Go to Tools >> Board then select '**Arduino/Genuino Uno**'.
+  1. Go to Sleep-Apnea-Tester >> breathe >> Stop_breath_check.
+  2. Open file **Stop_breath_checkand.ino** and select Tools >> Board >> '**Arduino/Genuino Uno**'.
   3. Select Serial Port for connect USB.
   4. Connect USB for start using, the yellow light sensor for nose breath measure and the green light for month breath measure.
   
