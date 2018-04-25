@@ -1,6 +1,5 @@
-#include <SPI.h>
+
 #include <SD.h>
-#include <Wire.h>
 #include <TimeLib.h>
 #include <DS1307RTC.h>
 

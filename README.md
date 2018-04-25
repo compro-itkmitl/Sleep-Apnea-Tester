@@ -44,11 +44,8 @@
 ---
 
 4. **Download and Install Library**
-  - Go to https://github.com/compro-itkmitl/Sleep-Apnea-Tester/tree/master/Library
-  - Download all ZIP file.
-  
-  ![](/Self-evaluation/img/step_4_1.png)
-  
+  - Go to Sleep-Apnea-Tester >> Library
+  - Extract all ZIP file.  
   - Open Arduino IDE and select Sketch >> Include Library >> Add .zip library.
   
   ![](/Self-evaluation/img/step_4_2.png)
@@ -58,10 +55,15 @@
 ---
 
 # ![](/Self-evaluation/img/library.png) Library In Uses
-  - Arduino Json : https://github.com/bblanchon/ArduinoJson
+  Sleep Apnea Board Meter
   - Time Library : https://github.com/PaulStoffregen/Time
-  - Firebase Arduino : https://github.com/firebase/firebase-arduino
-  - Pubsubclient : https://github.com/knolleary/pubsubclient
+  - DS1307RTC Library : https://github.com/PaulStoffregen/DS1307RTC
+  - SD Library
+  
+  Sleep Apnea Risk Test Program
+  - <time.h> : time(), localtime()
+  - <stdlib.h> : system("cls")
+
 ---
 
 # ![](/Self-evaluation/img/requirement_icon.png) Requirements
